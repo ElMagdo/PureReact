@@ -1,0 +1,10 @@
+.envelope {
+    border: 1px solid #ccc;
+    width: 600px;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
