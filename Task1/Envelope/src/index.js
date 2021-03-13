@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import './style.css'
+import 'font-awesome/css/font-awesome.min.css';
+import './style.css';
 
-function Envelope() {
+function Envelope({toPerson, fromPerson}) {
     return (
-        <div className="envelope"></div>
+        <div className="envelope">
+          <div className="top">
+            <AddressLabel label={fromPerson} />
+            <Stamp/>
+          </div>
+          <div className="btm">
+            <AddressLabel label={toPerson} />
+          </div>
+        </div>
     );
+}
+
+Envelope.propTypes = {
+  toPerson: PropTypes.object.isRequired,
+  fromPerson: PropTypes.object.isRequired
 }
 
 function AddressLabel({label}) {
@@ -22,12 +36,27 @@ AddressLabel.propTypes = {
   person: PropTypes.object.isRequired
 }
 
-let person = {
-  fullName: "Full Name",
+let Stamp = () => (
+<div className="stamp-icon">
+  <i className="fa fa-podcast fa-4x"/>
+</div>
+);
+
+let sender = {
+  fullName: "Mr Sender",
   address: {
     street: "123 Fake St.",
     city: "Boston",
     postalCode: "MA 02118"
+  }
+};
+
+let receiver = {
+  fullName: "Mrs Receiver",
+  address: {
+    street: "123 Fake St.",
+    city: "San Francisco",
+    postalCode: "CA 94101"
   }
 };
 
@@ -55,4 +84,4 @@ Address.propTypes = {
   })
 }
 
-ReactDOM.render(<Envelope/>, document.querySelector('#root'));
+ReactDOM.render(<Envelope toPerson={receiver} fromPerson={sender}/>, document.querySelector('#root'));
