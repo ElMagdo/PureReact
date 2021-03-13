@@ -9,6 +9,10 @@ function AddressLabel({label}) {
   );
 }
 
+AddressLabel.propTypes = {
+  person: PropTypes.object.isRequired
+}
+
 let person = {
   fullName: "Full Name",
   address: {
