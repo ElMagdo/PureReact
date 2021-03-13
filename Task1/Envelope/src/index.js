@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
+function Envelope() {
+    return (
+        <div className="envelope"></div>
+    );
+}
+
 function AddressLabel({label}) {
   return (
     <div className="label">
@@ -48,4 +54,4 @@ Address.propTypes = {
   })
 }
 
-ReactDOM.render(<AddressLabel label={person}/>, document.querySelector('#root'));
+ReactDOM.render(<Envelope/>, document.querySelector('#root'));
