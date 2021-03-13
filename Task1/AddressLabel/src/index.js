@@ -5,7 +5,9 @@ import './index.css';
 
 function AddressLabel({label}) {
   return (
-    <div className="label"></div>
+    <div className="label">
+      <Name fullName={label.fullName}/>
+    </div>
   );
 }
 
@@ -21,5 +23,11 @@ let person = {
     postalCode: "MA 02118"
   }
 };
+
+let Name = (fullName) => (<div className="names">{fullName}</div>);
+
+Name.propTypes = {
+  fullName: PropTypes.string.isRequired
+}
 
 ReactDOM.render(<AddressLabel label={person}/>, document.querySelector('#root'));
