@@ -25,6 +25,11 @@
     align-self: center;
 }
 
+.sub {
+    font-family: arial;
+    padding-left: 20px;
+}
+
 .exp-date {
     display: flex;
     justify-content: center;
@@ -47,4 +52,5 @@
 .person {
     font-size: 30px;
     font-family: courier;
+    padding-left: 25px;
 }
