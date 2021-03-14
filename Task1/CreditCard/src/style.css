@@ -1,11 +1,13 @@
 .card {
-    width: 500px;
+    width: 450px;
     min-height: 250px;
     display: flex;
     flex-direction: column;
-    border: 2px solid gray;
-    border-radius: 5px;
-    background-color: rgb(87, 134, 236);
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(8, 63, 184);
+    padding: 10px;
 }
 
 .bank {
