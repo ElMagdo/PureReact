@@ -37,11 +37,11 @@ let CardNum = ({num}) => <div className="number">{num}</div>;
 
 let Date = ({date}) => (
     <div className="exp-date">
-        <div>
+        <div className="lef">
             <div>VALID</div>
             <div>THRU</div>
         </div>
-        <div>{date}</div>
+        <div className="ryt">{date}</div>
     </div>
 );
 
