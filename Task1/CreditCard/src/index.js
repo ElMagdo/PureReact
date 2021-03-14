@@ -8,6 +8,7 @@ function CreditCard({cardInfo}) {
         <div className="card">
             <BankName name={cardInfo.bankName}/>
             <CardNum num={cardInfo.cardNum}/>
+            <Date date={cardInfo.expDate}/>
         </div>
     );
 }
@@ -31,5 +32,15 @@ let info = {
 let BankName = ({name}) => <div className="bank">{name}</div>;
 
 let CardNum = ({num}) => <div className="number">{num}</div>;
+
+let Date = ({date}) => (
+    <div className="exp-date">
+        <div>
+            <div>VALID</div>
+            <div>THRU</div>
+        </div>
+        <div>{date}</div>
+    </div>
+);
 
 ReactDOM.render(<CreditCard cardInfo={info}/>, document.querySelector("#root"));
