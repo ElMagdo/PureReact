@@ -7,7 +7,7 @@
     border-radius: 15px;
     color: #fff;
     background-color: rgb(8, 63, 184);
-    padding: 10px;
+    padding: 25px;
 }
 
 .bank {
@@ -34,6 +34,7 @@
 
 .lef {
     font-weight: 100;
+    font-size: 15px;
 }
 
 .ryt {
@@ -41,4 +42,9 @@
     font-size: 30px;
     letter-spacing: 2px;
     margin: 5px;
+}
+
+.person {
+    font-size: 30px;
+    font-family: courier;
 }
