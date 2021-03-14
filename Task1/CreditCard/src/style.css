@@ -14,3 +14,10 @@
     font-weight: bolder;
     font-family: sans-serif;
 }
+
+.number {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    align-self: center;
+}
