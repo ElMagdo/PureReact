@@ -9,7 +9,14 @@ function CreditCard({cardInfo}) {
     );
 }
 
-
+CreditCard.propTypes = {
+    cardInfo: PropTypes.shape({
+        bankName: PropTypes.string.isRequired,
+        personName: PropTypes.string.isRequired,
+        expDate: PropTypes.string.isRequired,
+        cardNum: PropTypes.string.isRequired
+    }).isRequired
+}
 
 let info = {
     bankName: "Big Bank, Inc",
