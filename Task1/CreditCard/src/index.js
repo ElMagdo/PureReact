@@ -8,6 +8,7 @@ function CreditCard({cardInfo}) {
         <div className="card">
             <BankName name={cardInfo.bankName}/>
             <CardNum num={cardInfo.cardNum}/>
+            <div className="sub">1234</div>
             <Date date={cardInfo.expDate}/>
             <PersonName name={cardInfo.personName}/>
         </div>
@@ -24,7 +25,7 @@ CreditCard.propTypes = {
 }
 
 let info = {
-    bankName: "Big Bank, Inc",
+    bankName: "Big Bank, Inc.",
     cardNum: "1234 5678 8765 4321",
     expDate: "08/19",
     personName: "CARDHOLDER NAME"
