@@ -27,6 +27,6 @@ let info = {
     personName: "CARDHOLDER NAME"
 }
 
-let BankName = ({name}) => <div>{name}</div>;
+let BankName = ({name}) => <div className="bank">{name}</div>;
 
 ReactDOM.render(<CreditCard cardInfo={info}/>, document.querySelector("#root"));
