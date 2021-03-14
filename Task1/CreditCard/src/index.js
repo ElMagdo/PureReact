@@ -7,6 +7,7 @@ function CreditCard({cardInfo}) {
     return(
         <div className="card">
             <BankName name={cardInfo.bankName}/>
+            <CardNum num={cardInfo.cardNum}/>
         </div>
     );
 }
@@ -28,5 +29,7 @@ let info = {
 }
 
 let BankName = ({name}) => <div className="bank">{name}</div>;
+
+let CardNum = ({num}) => <div className="number">{num}</div>;
 
 ReactDOM.render(<CreditCard cardInfo={info}/>, document.querySelector("#root"));
