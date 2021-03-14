@@ -1,0 +1,9 @@
+.card {
+    width: 500px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(87, 134, 236);
+}
