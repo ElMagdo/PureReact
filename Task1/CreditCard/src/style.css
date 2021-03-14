@@ -24,3 +24,21 @@
     font-family: monospace;
     align-self: center;
 }
+
+.exp-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+
+.lef {
+    font-weight: 100;
+}
+
+.ryt {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
