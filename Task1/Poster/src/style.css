@@ -1,0 +1,7 @@
+.poster {
+    width: 600px;
+    min-height: 400px;
+    border: 2px solid rgb(7, 105, 233);
+    background-color: #000;
+    color: #fff;
+}
