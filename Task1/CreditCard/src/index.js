@@ -5,7 +5,9 @@ import PropTypes from 'prop-types';
 
 function CreditCard({cardInfo}) {
     return(
-        <div className="card">NO CREDIT!!....</div>
+        <div className="card">
+            <BankName name={cardInfo.bankName}/>
+        </div>
     );
 }
 
@@ -24,5 +26,7 @@ let info = {
     expDate: "08/19",
     personName: "CARDHOLDER NAME"
 }
+
+let BankName = ({name}) => <div>{name}</div>;
 
 ReactDOM.render(<CreditCard cardInfo={info}/>, document.querySelector("#root"));
