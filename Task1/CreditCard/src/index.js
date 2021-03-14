@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
+import PropTypes from 'prop-types';
 
 function CreditCard({cardInfo}) {
     return(
         <div className="card">NO CREDIT!!....</div>
     );
 }
+
+
 
 let info = {
     bankName: "Big Bank, Inc",
