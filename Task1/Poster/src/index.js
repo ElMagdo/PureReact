@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Poster() {
+function Poster({image, title, text}) {
     return (
         <div className="poster">WATCHOUT!!!......(+_+)</div>
     );
 }
 
-ReactDOM.render(<Poster/>, document.querySelector("#root"));
+let img = "./post.png";
+let hdx = "REACT";
+let txt = "The best thing since jQuery, probably";
+
+ReactDOM.render(<Poster image={img} title={hdx} text={txt}/>, document.querySelector("#root"));
