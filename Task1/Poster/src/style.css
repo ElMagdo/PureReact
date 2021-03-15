@@ -17,14 +17,14 @@
 }
 
 .title {
-    font-size: 42px;
+    font-size: 52px;
     color: rgb(7, 105, 233);
     font-weight: 600;
     display: flex;
 }
 
 .first, .last {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .text {
