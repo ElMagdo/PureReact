@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 import PropTypes from 'prop-types';
+import 'font-awesome/css/font-awesome.min.css';
 
 function Email({email}) {
     return (
         <div className="email">
             <div><input type="checkbox"/></div>
-            <div></div>
+            <div><i className="fa fa-archive"/></div>
             <div className="end">
                 <Sender from={email.sender}/>
             </div>
