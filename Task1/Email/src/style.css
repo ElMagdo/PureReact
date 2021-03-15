@@ -1,5 +1,6 @@
 .email {
     width: 900px;
     min-height: 100px;
-    border: 2px 0 solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
