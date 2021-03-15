@@ -9,6 +9,15 @@ function Email(email) {
     );
 }
 
+Email.propTypes = {
+    email: PropTypes.style({
+        sender: PropTypes.string.isRequired,
+        subject: PropTypes.string.isRequired,
+        date: PropTypes.string.isRequired,
+        message: PropTypes.string.isRequired
+    })
+}
+
 let content = {
     sender: "React Newsletter",
     subject: "Issue 36",
