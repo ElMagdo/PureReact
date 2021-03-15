@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
+import PropTypes from 'prop-types';
 
 function Email(email) {
     return (
