@@ -5,3 +5,8 @@
     border-bottom: 1px solid gray;
     display: flex;
 }
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
