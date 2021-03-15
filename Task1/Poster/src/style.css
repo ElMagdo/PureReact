@@ -10,3 +10,9 @@
 .image {
     border: 2px solid rgb(7, 105, 233);
 }
+
+.title {
+    font-size: 30px;
+    color: rgb(7, 105, 233);
+    font-weight: 600;
+}
