@@ -10,8 +10,13 @@ function Email({email}) {
             <div><input type="checkbox"/></div>
             <div><i className="fa fa-archive"/></div>
             <div className="end">
-                <Sender from={email.sender}/>
-                <Subject from={email.sender} name={email.subject}/>
+                <div className="top">
+                    <Sender from={email.sender}/>
+                    <Subject from={email.sender} name={email.subject}/>
+                    <Date time={email.date}/>
+                </div>
+                <Message from={email.sender} name={email.subject}
+                time={email.date} msg={email.message}/>
             </div>
         </div>
     );
@@ -38,6 +43,16 @@ let Sender = ({from}) => <div className="sender">{from}</div>;
 let Subject = ({from, name}) => (
     <div className="subject">
         <span>{from}</span>-<span>{name}</span>
+    </div>
+);
+
+let Date = ({time}) => <div className="date">{time}</div>;
+
+let Message = ({from, name, time, msg}) => (
+    <div className="message">
+        <span>{from} </span>
+        <span>{name} </span>
+        <span>{time}</span><span>{msg}</span>
     </div>
 );
 
