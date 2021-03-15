@@ -3,19 +3,24 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import PropTypes from 'prop-types';
 
-function Email(email) {
+function Email({email}) {
     return (
-        <div className="email"></div>
+        <div className="email">
+            <div><input type="checkbox"/></div>
+            <div></div>
+            <div className="end">
+            </div>
+        </div>
     );
 }
 
 Email.propTypes = {
-    email: PropTypes.style({
+    email: PropTypes.shape({
         sender: PropTypes.string.isRequired,
         subject: PropTypes.string.isRequired,
         date: PropTypes.string.isRequired,
         message: PropTypes.string.isRequired
-    })
+    }).isRequired
 }
 
 let content = {
