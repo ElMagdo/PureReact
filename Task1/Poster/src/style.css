@@ -1,5 +1,5 @@
 .poster {
-    width: 600px;
+    width: 700px;
     min-height: 400px;
     border: 2px solid rgb(7, 105, 233);
     background-color: #000;
@@ -8,10 +8,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .image {
     border: 2px solid rgb(7, 105, 233);
+    padding: 0px 0px;
 }
 
 .title {
