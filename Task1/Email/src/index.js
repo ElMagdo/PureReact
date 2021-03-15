@@ -11,6 +11,7 @@ function Email({email}) {
             <div><i className="fa fa-archive"/></div>
             <div className="end">
                 <Sender from={email.sender}/>
+                <Subject from={email.sender} name={email.subject}/>
             </div>
         </div>
     );
@@ -33,5 +34,11 @@ let content = {
 };
 
 let Sender = ({from}) => <div className="sender">{from}</div>;
+
+let Subject = ({from, name}) => (
+    <div className="subject">
+        <span>{from}</span>-<span>{name}</span>
+    </div>
+);
 
 ReactDOM.render(<Email email={content}/>, document.querySelector("#root"));
