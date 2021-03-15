@@ -22,7 +22,7 @@ Poster.propTypes = {
 
 let img = logo;
 let hdx = "REACT";
-let txt = "The best thing since jQuery, probably";
+let txt = "The best thing since jQuery, probably.";
 
 let Image = ({src}) => (
 <div className="image"><img src={src} alt="Poster"/></div>
