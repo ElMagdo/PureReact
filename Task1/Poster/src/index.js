@@ -9,7 +9,7 @@ function Poster({image, title, text}) {
         <div className="poster">
             <Image src={image}/>
             <Title tag={title}/>
-            <Text words={txt}/>
+            <Text words={text}/>
         </div>
     );
 }
@@ -31,7 +31,7 @@ let Image = ({src}) => (
 let Title = ({tag}) => (
 <div className="title">
     <span className="first">{tag[0]}</span>
-    {tag.slice(1, tag.length-1)}
+    <span>{tag.slice(1, tag.length-1)}</span>
     <span className="last">{tag[tag.length-1]}</span>
 </div>
 );
