@@ -24,3 +24,10 @@
 .first, .last {
     font-size: 50px;
 }
+
+.text {
+    font-family: sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 10;
+}
