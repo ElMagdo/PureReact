@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
+import logo from './logo512.png';
 import PropTypes from 'prop-types';
 
 function Poster({image, title, text}) {
@@ -19,7 +20,7 @@ Poster.propTypes = {
     text: PropTypes.string.isRequired
 }
 
-let img = "./post.png";
+let img = logo;
 let hdx = "REACT";
 let txt = "The best thing since jQuery, probably";
 
