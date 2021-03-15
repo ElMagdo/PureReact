@@ -1,9 +1,12 @@
 .email {
-    width: 900px;
-    min-height: 100px;
+    width: 1050px;
+    min-height: 50px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
 }
 
 .top {
