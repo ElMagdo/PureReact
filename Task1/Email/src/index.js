@@ -9,6 +9,7 @@ function Email({email}) {
             <div><input type="checkbox"/></div>
             <div></div>
             <div className="end">
+                <Sender from={email.sender}/>
             </div>
         </div>
     );
