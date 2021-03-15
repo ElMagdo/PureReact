@@ -8,6 +8,7 @@ function Poster({image, title, text}) {
         <div className="poster">
             <Image src={image}/>
             <Title tag={title}/>
+            <Text words={txt}/>
         </div>
     );
 }
@@ -33,5 +34,7 @@ let Title = ({tag}) => (
     <span className="last">{tag[tag.length-1]}</span>
 </div>
 );
+
+let Text = ({words}) => <div className="text">{words}</div>;
 
 ReactDOM.render(<Poster image={img} title={hdx} text={txt}/>, document.querySelector("#root"));
