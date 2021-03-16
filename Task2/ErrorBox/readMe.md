@@ -1,5 +1,7 @@
 Make a component to display an “error box” that looks like this:  
 
+![Sample Error Box](error.png)
+
 Invoking the component should look like this:  
 
 `<ErrorBox>`  
