@@ -9,5 +9,7 @@ Something has gone wrong
 `</ErrorBox>`  
 
 Use the `children` prop to place the text properly. The image above 
-uses *Bootstrap* for styling and *Font Awesome* for the icon. You can add these
-libraries to your public/index.html file for the styling icon if you like.
+uses [Bootstrap](http://getbootstrap.com/getting-started/#download-cdn) 
+for styling and [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) 
+for the icon. You can add these libraries to your public/index.html file for 
+the styling icon if you like.
