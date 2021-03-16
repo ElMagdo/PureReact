@@ -20,7 +20,7 @@
     font-size: 15px;
 }
 
-.message {
+.message, i, input {
     color: gray;
     font-size: 13.5px;
 }
