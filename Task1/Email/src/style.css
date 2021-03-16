@@ -9,7 +9,18 @@
     font-family: sans-serif;
 }
 
+.end {
+    width: 900px;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.message {
+    color: gray;
+    font-size: 13.5px;
 }

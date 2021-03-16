@@ -51,7 +51,7 @@ let Date = ({time}) => <div className="date">{time}</div>;
 let Message = ({from, name, time, msg}) => (
     <div className="message">
         <span>{from} </span>
-        <span>{name} </span>
+        <span>{name} - </span>
         <span>{time}</span><span>{msg}</span>
     </div>
 );
