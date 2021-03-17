@@ -1,13 +1,16 @@
 .err-box {
-    width: 650px;
-    height: 70px;
-    border: 1.5px solid rgb(243, 165, 165);
+    width: 680px;
+    height: 100px;
+    border: 2px solid rgb(243, 165, 165);
     border-radius: 7px;
-    color: red;
-    padding: 15px;
+    color: rgb(151, 10, 10);
     font-size: 30px;
     background-color: rgb(247, 211, 211);
     display: flex;
     font-family: sans-serif;
     align-items: center;
+}
+
+i {
+    padding: 0 25px;
 }
