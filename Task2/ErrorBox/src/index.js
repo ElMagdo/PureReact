@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'font-awesome/css/font-awesome.min.css'
 
 function ErrorBox() {
     return (
         <div className="err-box">
-            <i className="fa fa-star"/>
+            <i className="fa fa-warning"/>
             Wait for the ERROR (@-@)
         </div>
     );
