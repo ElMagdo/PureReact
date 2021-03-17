@@ -1,11 +1,11 @@
 .err-box {
-    width: 500px;
+    width: 700px;
     min-height: 90px;
     border: 1.5px solid rgb(243, 165, 165);
     border-radius: 7px;
     color: red;
     padding-top: 20px;
     padding-left: 20px;
-    font-size: 50px;
+    font-size: 30px;
     background-color: rgb(247, 211, 211);
 }
