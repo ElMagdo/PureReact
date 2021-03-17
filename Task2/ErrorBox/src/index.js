@@ -6,8 +6,8 @@ import './style.css';
 function ErrorBox({children}) {
     return (
         <div className="err-box">
-            <i className="fa fa-warning fa-2x"/>
-            {children}
+            <div><i className="fa fa-warning fa-2x"/></div>
+            <div>{children}</div>
         </div>
     );
 }
