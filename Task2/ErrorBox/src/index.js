@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'font-awesome/css/font-awesome.min.css'
+import 'font-awesome/css/font-awesome.min.css';
+import './style.css';
 
 function ErrorBox() {
     return (
