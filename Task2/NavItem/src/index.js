@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
 function Nav({children}) {
+    React.Children.forEach(
+        children,
+        (child) => {
+            if (child.type !== NavItem) console.error("Wrong child type, Change it FAST!!!");
+    });
+    
     return (
         <div className="nav-ui">{children}</div>
     );
