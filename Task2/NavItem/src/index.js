@@ -8,6 +8,10 @@ function Nav({children}) {
     );
 }
 
+Nav.propTypes = {
+    children: PropTypes.node
+}
+
 let NavItem = ({url, children}) => <a href={url}> {children} </a>;
 
 ReactDOM.render(
