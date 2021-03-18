@@ -14,6 +14,14 @@ Nav.propTypes = {
 
 let NavItem = ({url, children}) => <a href={url}> {children} </a>;
 
+NavItem.propTypes = {
+    url: PropTypes.string.isRequired,
+    children: PropTypes.oneOfType([
+        PropTypes.element,
+        PropTypes.string
+    ]).isRequired
+}
+
 ReactDOM.render(
     <Nav>
         <NavItem url="/"> Home </NavItem>
