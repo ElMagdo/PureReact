@@ -12,3 +12,10 @@
     font-weight: bold;
     font-size: 25px;
 }
+
+.bdy {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 60px;
+    font-size: 20px;
+}
