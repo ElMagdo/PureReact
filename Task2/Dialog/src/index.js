@@ -13,10 +13,14 @@ let Title = ({title}) => <div className="title">{title}</div>;
 let txt = "Here is an important text or error or something";
 let Body = ({body}) => <div className="bdy">{body}</div>;
 
+let ftx = "Close";
+let Footer = ({footer}) => <button>{footer}</button>;
+
 ReactDOM.render(
     <DialogBox>
         <Title title={hdx}/>
         <Body body={txt}/>
+        <Footer footer={ftx}/>
     </DialogBox>,
     document.querySelector("#root")
 );
