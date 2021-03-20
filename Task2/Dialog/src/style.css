@@ -7,3 +7,8 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
