@@ -1,0 +1,6 @@
+.dlg {
+    width: 550px;
+    height: 250px;
+    border: 2px solid gray;
+    font-family: sans-serif;
+}
