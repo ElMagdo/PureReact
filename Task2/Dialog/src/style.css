@@ -19,3 +19,12 @@
     height: 60px;
     font-size: 20px;
 }
+
+.foot {
+    align-self: flex-end;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
