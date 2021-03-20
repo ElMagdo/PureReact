@@ -1,6 +1,6 @@
 .dlg {
     width: 550px;
-    height: 250px;
+    height: 240px;
     border: 2px solid gray;
     font-family: sans-serif;
     display: flex;
@@ -11,13 +11,15 @@
 .title {
     font-weight: bold;
     font-size: 25px;
+    padding: 9px 20px 9px 20px;
 }
 
 .bdy {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    height: 60px;
+    height: 50px;
     font-size: 20px;
+    padding: 20px 0 0 20px;
 }
 
 .foot {
