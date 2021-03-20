@@ -3,4 +3,7 @@
     height: 250px;
     border: 2px solid gray;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
