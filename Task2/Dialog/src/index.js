@@ -15,6 +15,11 @@ function DialogBox({children}) {
         <div className="dlg">{children}</div>
     );
 }
+
+DialogBox.propTypes = {
+    children: PropTypes.node
+}
+
 let hdx = "This Is Important";
 let Title = ({title}) => <div className="title">{title}</div>;
 
