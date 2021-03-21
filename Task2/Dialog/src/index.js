@@ -17,11 +17,15 @@ function DialogBox({children}) {
 }
 
 DialogBox.propTypes = {
-    children: PropTypes.node
+    children: PropTypes.node.isRequired
 }
 
 let hdx = "This Is Important";
 let Title = ({title}) => <div className="title">{title}</div>;
+
+Title.propTypes = {
+    title: PropTypes.string.isRequired
+}
 
 let txt = "Here is some important text or error or something.";
 let Body = ({body}) => <div className="bdy">{body}</div>;
