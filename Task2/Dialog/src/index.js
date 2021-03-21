@@ -37,6 +37,10 @@ Body.propTypes = {
 let ftx = "Close";
 let Footer = ({footer}) => <button className="foot">{footer}</button>;
 
+Footer.propTypes = {
+    footer: PropTypes.string.isRequired
+}
+
 ReactDOM.render(
     <DialogBox>
         <Title title={hdx}/>
