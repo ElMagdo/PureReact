@@ -4,6 +4,13 @@ import './style.css';
 import PropTypes from 'prop-types';
 
 function DialogBox({children}) {
+    React.Children.forEach(
+        children,
+        (child) => {
+            if (child.type !== Title||child.type !== Body||child.type !== Footer)
+                console.error("Wrong type of child!!");
+        });
+
     return (
         <div className="dlg">{children}</div>
     );
