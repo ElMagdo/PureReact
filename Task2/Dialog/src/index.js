@@ -30,6 +30,10 @@ Title.propTypes = {
 let txt = "Here is some important text or error or something.";
 let Body = ({body}) => <div className="bdy">{body}</div>;
 
+Body.propTypes = {
+    body: PropTypes.string.isRequired
+}
+
 let ftx = "Close";
 let Footer = ({footer}) => <button className="foot">{footer}</button>;
 
