@@ -25,9 +25,9 @@
 .foot {
     align-self: flex-end;
     font-size: 20px;
-    width: 100px;
-    height: 40px;
-    border: 1px solid gray;
-    border-radius: 6px;
-    margin: 3px 30px 3px 0;
+    width: 90px;
+    height: 48px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    margin: 0px 30px 9px 0;
 }
