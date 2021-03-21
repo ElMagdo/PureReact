@@ -1,5 +1,5 @@
 .dlg {
-    width: 550px;
+    width: 800px;
     height: 240px;
     border: 2px solid gray;
     font-family: sans-serif;
@@ -26,7 +26,7 @@
     align-self: flex-end;
     font-size: 20px;
     width: 100px;
-    height: 50px;
+    height: 40px;
     border: 1px solid gray;
     border-radius: 6px;
     margin: 3px 30px 3px 0;
