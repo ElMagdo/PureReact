@@ -10,11 +10,11 @@ function DialogBox({children}) {
 let hdx = "This Is Important";
 let Title = ({title}) => <div className="title">{title}</div>;
 
-let txt = "Here is an important text or error or something";
+let txt = "Here is some important text or error or something.";
 let Body = ({body}) => <div className="bdy">{body}</div>;
 
 let ftx = "Close";
-let Footer = ({footer}) => <button>{footer}</button>;
+let Footer = ({footer}) => <button className="foot">{footer}</button>;
 
 ReactDOM.render(
     <DialogBox>
