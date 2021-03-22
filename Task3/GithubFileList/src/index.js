@@ -13,7 +13,7 @@ function FileList({files}) {
 
 FileList.propTypes = {
     files: PropTypes.array
-}
+};
 
 const testFiles = [{
     id: 1,
@@ -121,6 +121,10 @@ let FileListItem = ({file}) => (
         <div className="left"></div>
     </div>
 );
+
+FileListItem.propTypes = {
+    file: PropTypes.object.isRequired
+};
 
 ReactDOM.render(
     <FileList files={testFiles}/>,
