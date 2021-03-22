@@ -10,6 +10,9 @@ function FileList() {
     );
 }
 
+FileList.propTypes = {
+    files: PropTypes.array
+}
 
 ReactDOM.render(
     <FileList/>,
