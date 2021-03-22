@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
-function FileList() {
+function FileList({files}) {
     return (
         <table className="file-list">
             <tbody><tr><td>Be ready to commit</td></tr></tbody>
@@ -116,6 +116,6 @@ const testFiles = [{
 ];
 
 ReactDOM.render(
-    <FileList/>,
+    <FileList files={testFiles}/>,
     document.querySelector("#root")
 );
