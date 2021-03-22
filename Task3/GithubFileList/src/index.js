@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
 function FileList() {
     return (
@@ -8,6 +9,7 @@ function FileList() {
         </table>
     );
 }
+
 
 ReactDOM.render(
     <FileList/>,
