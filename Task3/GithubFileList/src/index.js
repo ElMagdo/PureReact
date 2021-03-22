@@ -116,6 +116,12 @@ const testFiles = [{
 },
 ];
 
+let FileListItem = ({file}) => (
+    <div className="item">
+        <div className="left"></div>
+    </div>
+);
+
 ReactDOM.render(
     <FileList files={testFiles}/>,
     document.querySelector("#root")
