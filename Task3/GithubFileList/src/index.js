@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 function FileList({files}) {
     return (
-        <table className="file-list">
-            <tbody><tr><td>Be ready to commit</td></tr></tbody>
-        </table>
+        <div className="file-list">
+            The new way..
+        </div>
     );
 }
 
