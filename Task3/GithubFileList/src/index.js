@@ -132,6 +132,10 @@ function Icon({type}) {
     return <span className="icon"><i className={`fa ${icon}`}/></span>;
 }
 
+Icon.propTypes = {
+    type: PropTypes.string.isRequired
+}
+
 let Name = ({name}) => <span className="name">{name}</span>;
 
 let Message = ({commit}) => <div className="commit-msg">{commit}</div>;
