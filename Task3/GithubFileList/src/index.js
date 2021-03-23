@@ -134,6 +134,8 @@ function Icon({type}) {
     );
 }
 
+let Name = ({name}) => <span className="name">{name}</span>;
+
 ReactDOM.render(
     <FileList files={testFiles}/>,
     document.querySelector("#root")
