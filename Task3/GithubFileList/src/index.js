@@ -129,12 +129,12 @@ FileListItem.propTypes = {
 function Icon({type}) {
     let icon = (type === "folder") ? "fa-folder" : "fa-file-text-o";
 
-    return (
-        <span className="icon"><i className={`fa ${icon}`}/></span>
-    );
+    return <span className="icon"><i className={`fa ${icon}`}/></span>;
 }
 
 let Name = ({name}) => <span className="name">{name}</span>;
+
+let Message = ({commit}) => <div className="commit-msg">{commit}</div>;
 
 ReactDOM.render(
     <FileList files={testFiles}/>,
