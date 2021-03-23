@@ -4,5 +4,10 @@
     color: #333;
     margin: 0 auto;
     border: 1px solid #ccc;
-    border-collapse: collapse;
+    border-top: 0;
+}
+
+.item {
+    display: flex;
+    border-top: 1px solid #ccc;
 }
