@@ -6,7 +6,7 @@ import './style.css';
 function FileList({files}) {
     return (
         <div className="file-list">
-            The new way..
+            {files.map(file => <FileListItem key={file.id} file={file}/> )}
         </div>
     );
 }
@@ -120,6 +120,7 @@ let FileListItem = ({file}) => (
     <div className="item">
         <div className="left">
             <Icon type={file.type}/>
+            {file.name}
         </div>
     </div>
 );
