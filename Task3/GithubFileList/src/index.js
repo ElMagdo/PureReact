@@ -138,6 +138,10 @@ Icon.propTypes = {
 
 let Name = ({name}) => <span className="name">{name}</span>;
 
+Name.propTypes = {
+    name: PropTypes.string.isRequired
+}
+
 let Message = ({commit}) => <div className="commit-msg">{commit}</div>;
 
 const Time = ({ time }) => {
