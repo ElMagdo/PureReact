@@ -124,6 +124,7 @@ let FileListItem = ({file}) => (
             <Name name={file.name}/>
         </div>
         <Message commit={file.latestCommit}/>
+        <Time time={file.updated_at}/>
     </div>
 );
 
