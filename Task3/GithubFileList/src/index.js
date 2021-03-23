@@ -118,7 +118,9 @@ const testFiles = [{
 
 let FileListItem = ({file}) => (
     <div className="item">
-        <div className="left"></div>
+        <div className="left">
+            <Icon type={file.type}/>
+        </div>
     </div>
 );
 
