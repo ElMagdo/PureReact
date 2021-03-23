@@ -123,6 +123,7 @@ let FileListItem = ({file}) => (
             <Icon type={file.type}/>
             <Name name={file.name}/>
         </div>
+        <Message commit={file.latestCommit}/>
     </div>
 );
 
@@ -146,10 +147,10 @@ Name.propTypes = {
     name: PropTypes.string.isRequired
 }
 
-let Message = ({commit}) => <div className="commit-msg">{commit}</div>;
+let Message = ({commit}) => <div className="commit-msg">{commit.message}</div>;
 
 Message.propTypes = {
-    commit: PropTypes.string.isRequired
+    commit: PropTypes.object.isRequired
 }
 
 const Time = ({ time }) => {
