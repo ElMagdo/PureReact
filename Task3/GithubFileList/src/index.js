@@ -144,6 +144,10 @@ Name.propTypes = {
 
 let Message = ({commit}) => <div className="commit-msg">{commit}</div>;
 
+Message.propTypes = {
+    commit: PropTypes.string.isRequired
+}
+
 const Time = ({ time }) => {
   const timeString = time;//moment(time).fromNow();
   return (<span className="time">{timeString}</span>);
