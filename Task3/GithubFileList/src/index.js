@@ -136,6 +136,11 @@ let Name = ({name}) => <span className="name">{name}</span>;
 
 let Message = ({commit}) => <div className="commit-msg">{commit}</div>;
 
+const Time = ({ time }) => {
+  const timeString = time;//moment(time).fromNow();
+  return (<span className="time">{timeString}</span>);
+};
+
 ReactDOM.render(
     <FileList files={testFiles}/>,
     document.querySelector("#root")
