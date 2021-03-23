@@ -153,6 +153,10 @@ const Time = ({ time }) => {
   return (<span className="time">{timeString}</span>);
 };
 
+Time.propTypes = {
+    time: PropTypes.string.isRequired
+}
+
 ReactDOM.render(
     <FileList files={testFiles}/>,
     document.querySelector("#root")
