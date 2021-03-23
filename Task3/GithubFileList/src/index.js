@@ -121,7 +121,7 @@ let FileListItem = ({file}) => (
     <div className="item">
         <div className="left">
             <Icon type={file.type}/>
-            {file.name}
+            <Name name={file.name}/>
         </div>
     </div>
 );
