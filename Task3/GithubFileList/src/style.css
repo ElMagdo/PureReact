@@ -11,3 +11,7 @@
     display: flex;
     border-top: 1px solid #ccc;
 }
+
+i {
+    color: rgb(12, 79, 224);
+}
