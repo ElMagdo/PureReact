@@ -12,6 +12,6 @@
     border-top: 1px solid #ccc;
 }
 
-i {
-    color: rgb(12, 79, 224);
+.files {
+    border: 2px solid blueviolet;
 }
