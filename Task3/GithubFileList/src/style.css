@@ -12,10 +12,11 @@
     border-top: 1px solid #ccc;
     padding: 5px;
     font-size: 15px;
+    justify-content: space-between;
 }
 
 .left {
-    min-width: 180px;
+    min-width: 95px;
 }
 
 .icon {
@@ -24,4 +25,10 @@
 
 .fa-folder, .name {
     color: #508fca;
+}
+
+.commit-msg {
+    padding-left: 10px;
+    min-width: 420px;
+    overflow: hidden;
 }
