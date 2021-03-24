@@ -10,8 +10,6 @@
 .item {
     display: flex;
     border-top: 1px solid #ccc;
-}
-
-.files {
-    border: 2px solid blueviolet;
+    padding: 5px;
+    font-size: 15px;
 }
