@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 import 'font-awesome/css/font-awesome.min.css';
+import moment from 'moment';
 
 function FileList({files}) {
     return (
