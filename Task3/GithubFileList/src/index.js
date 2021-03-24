@@ -157,7 +157,7 @@ Message.propTypes = {
 
 const Time = ({ time }) => {
   const timeString = moment(time).fromNow();
-  return (<span className="time">{timeString}</span>);
+  return <div className="time">{timeString}</div>;
 };
 
 Time.propTypes = {
