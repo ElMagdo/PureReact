@@ -26,3 +26,9 @@
 .fa-folder, .name {
     color: #508fca;
 }
+
+.commit-msg {
+    padding-left: 10px;
+    min-width: 420px;
+    overflow: hidden;
+}
