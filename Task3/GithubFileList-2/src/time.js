@@ -7,4 +7,8 @@ const Time = ({ time }) => {
   return <div className="time">{timeString}</div>;
 };
 
+Time.propTypes = {
+    time: PropTypes.string.isRequired
+}
+
 export default Time;
