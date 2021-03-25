@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './styles.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Icon from './icon-type';
+import Name from './file-name';
 
 function FileList({files}) {
     return (
@@ -19,7 +20,10 @@ FileList.propTypes = {
 
 const FileListItem = ({file}) =>(
 <div className="item">
-    <div><Icon type={file.type}/></div>
+    <div>
+        <Icon type={file.type}/>
+        <Name name={file.name}/>
+    </div>
 </div>
 );
 
