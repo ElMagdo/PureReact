@@ -1,0 +1,8 @@
+.file-list {
+    font-family: sans-serif;
+    width: 980px;
+    color: #333;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
