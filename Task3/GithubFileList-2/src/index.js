@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
 function FileList() {
     return <div>Repo | Project | About | Commit</div>;
