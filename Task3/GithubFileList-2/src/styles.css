@@ -32,3 +32,8 @@
     min-width: 420px;
     overflow: hidden;
 }
+
+.time {
+    padding-left: 10px;
+    min-width: 90px;
+}
