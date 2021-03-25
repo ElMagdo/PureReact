@@ -5,6 +5,7 @@ import './styles.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Icon from './icon-type';
 import Name from './file-name';
+import Message from './message';
 
 function FileList({files}) {
     return (
@@ -24,6 +25,7 @@ const FileListItem = ({file}) =>(
         <Icon type={file.type}/>
         <Name name={file.name}/>
     </div>
+    <Message commit={file.latestCommit}/>
 </div>
 );
 
