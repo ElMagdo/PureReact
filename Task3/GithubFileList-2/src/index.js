@@ -6,7 +6,7 @@ function FileList({files}) {
     return <div>Repo | Project | About | Commit</div>;
 }
 
-FileList.propType = {
+FileList.propTypes = {
     files: PropTypes.array
 }
 
