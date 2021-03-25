@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import './styles.css';
 
 function FileList({files}) {
     return <div className="file-list">Repo | Project | About | Commit</div>;
