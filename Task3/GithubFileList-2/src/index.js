@@ -19,6 +19,10 @@ const FileListItem = ({file}) =>(
 <div className="item">{file.name}</div>
 );
 
+FileList.propTypes = {
+    files: PropTypes.array
+};
+
 const testFiles = [{
     id: 1,
     name: 'build',
