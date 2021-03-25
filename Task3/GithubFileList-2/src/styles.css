@@ -14,3 +14,7 @@
     font-size: 15px;
     justify-content: space-between;
 }
+
+.icon {
+    padding-right: 4px;
+}
