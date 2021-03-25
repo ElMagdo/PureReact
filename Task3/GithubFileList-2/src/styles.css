@@ -15,6 +15,10 @@
     justify-content: space-between;
 }
 
+.left {
+    min-width: 95px;
+}
+
 .icon {
     padding-right: 4px;
 }
