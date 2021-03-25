@@ -4,12 +4,18 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 function FileList({files}) {
-    return <div className="file-list">Repo | Project | About | Commit</div>;
+    return (
+    <div className="file-list">
+        {files.map(file => <FileListItem key={file.id}/>)}
+    </div>
+    );
 }
 
 FileList.propTypes = {
     files: PropTypes.array
 }
+
+const FileListItem = () => <div className="item">I'm on the list too</div>
 
 const testFiles = [{
     id: 1,
