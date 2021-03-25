@@ -6,6 +6,10 @@ function FileList({files}) {
     return <div>Repo | Project | About | Commit</div>;
 }
 
+FileList.propType = {
+    files: PropTypes.array
+}
+
 const testFiles = [{
     id: 1,
     name: 'build',
