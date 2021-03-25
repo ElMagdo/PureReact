@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
-function FileList() {
+function FileList({files}) {
     return <div>Repo | Project | About | Commit</div>;
 }
 
@@ -108,6 +108,6 @@ const testFiles = [{
 ];
 
 ReactDOM.render(
-    <FileList/>,
+    <FileList files={testFiles}/>,
     document.querySelector("#root")
 );
