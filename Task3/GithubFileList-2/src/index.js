@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './styles.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 function FileList({files}) {
     return (
