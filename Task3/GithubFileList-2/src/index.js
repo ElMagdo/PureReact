@@ -6,7 +6,7 @@ import './styles.css';
 function FileList({files}) {
     return (
     <div className="file-list">
-        {files.map(file => <FileListItem key={file.id}/>)}
+        {files.map(file => <FileListItem key={file.id} file={file}/>)}
     </div>
     );
 }
@@ -15,7 +15,9 @@ FileList.propTypes = {
     files: PropTypes.array
 }
 
-const FileListItem = () => <div className="item">I'm on the list too</div>
+const FileListItem = ({file}) =>(
+<div className="item">{file.name}</div>
+);
 
 const testFiles = [{
     id: 1,
