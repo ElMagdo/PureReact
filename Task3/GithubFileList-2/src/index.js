@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './styles.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Icon from './icon-type';
 
 function FileList({files}) {
     return (
