@@ -7,4 +7,8 @@ function Icon({type}) {
     return <span className="icon"><i className={`fa ${icon}`}/></span>;
 }
 
+Icon.propTypes = {
+    type: PropTypes.string.isRequired
+}
+
 export default Icon;
