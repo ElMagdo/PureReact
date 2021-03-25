@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
 function FileList({files}) {
-    return <div>Repo | Project | About | Commit</div>;
+    return <div className="file-list">Repo | Project | About | Commit</div>;
 }
 
 FileList.propTypes = {
