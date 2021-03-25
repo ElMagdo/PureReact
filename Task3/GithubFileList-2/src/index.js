@@ -18,7 +18,9 @@ FileList.propTypes = {
 }
 
 const FileListItem = ({file}) =>(
-<div className="item">{file.name}</div>
+<div className="item">
+    <div><Icon type={file.type}/></div>
+</div>
 );
 
 FileList.propTypes = {
