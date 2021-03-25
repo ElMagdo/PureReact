@@ -22,3 +22,7 @@
 .icon {
     padding-right: 4px;
 }
+
+.fa-folder, .name {
+    color: #508fca;
+}
