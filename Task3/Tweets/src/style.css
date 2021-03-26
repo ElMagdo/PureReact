@@ -1,0 +1,6 @@
+.tweet {
+    width: 564px;
+    min-height: 68px;
+    display: flex;
+    border-top: 1px solid #ccc;
+}
