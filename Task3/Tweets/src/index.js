@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 import Avatar from './avatar';
+import 'font-awesome/css/font-awesome.min.css';
 
 function Tweets({tweets}) {
     return <div className="tweets">
