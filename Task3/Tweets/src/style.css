@@ -1,3 +1,9 @@
+.tweets {
+    width: 570px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
 .tweet {
     width: 564px;
     min-height: 68px;
