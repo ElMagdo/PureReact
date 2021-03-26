@@ -13,4 +13,6 @@ Buttons.propTypes = {
 
 const ReplyButton = () => <i className="fa fa-reply reply-button"/>;
 
+const MoreOptionsButton = () => <i className="fa fa-ellipsis-h more-options-button"/>;
+
 export default Buttons;
