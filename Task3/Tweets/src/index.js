@@ -21,6 +21,7 @@ const Tweet = ({tweet}) => (
 <div className="tweet">
     <Avatar icon={tweet.gravatar}/>
     <div className="content">
+        <NameHandle user={tweet.author}/>
         <Message text={tweet.message}/>
     </div>
 </div>
