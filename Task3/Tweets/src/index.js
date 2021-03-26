@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 
-function Tweets() {
+function Tweets({tweets}) {
     return <div className="tweets">Tweeter Loading... </div>
 }
 
@@ -76,6 +76,6 @@ var testTweets = [
 ];
 
 ReactDOM.render(
-    <Tweets/>,
+    <Tweets tweets={testTweets}/>,
     document.querySelector("#root")
 );
