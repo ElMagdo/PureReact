@@ -13,6 +13,10 @@ Tweets.propTypes = {
 
 const Tweet = ({tweet}) => <div className="tweet">Just tweeted</div>;
 
+Tweet.propTypes = {
+    tweet: PropTypes.object.isRequired
+}
+
 var testTweets = [
 {
     id: 0,
