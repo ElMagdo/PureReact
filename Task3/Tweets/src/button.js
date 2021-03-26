@@ -24,7 +24,7 @@ const RetweetButton = ({count}) => (
 );
 
 RetweetButton.propTypes = {
-    count: PropTypes.number
+    count: PropTypes.number.isRequired
 }
 
 const LikeButton = ({ count }) => (
@@ -33,6 +33,10 @@ const LikeButton = ({ count }) => (
     {count > 0 && <span className="like-count">{count}</span>}
 </span>
 );
+
+LikeButton.propTypes = {
+    count: PropTypes.number.isRequired
+}
 
 const MoreOptionsButton = () => <i className="fa fa-ellipsis-h more-options-button"/>;
 
