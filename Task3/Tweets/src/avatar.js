@@ -7,4 +7,8 @@ const Avatar = (icon) => (
     </div>
 );
 
+Avatar.propTypes = {
+    icon: PropTypes.string.isRequired
+}
+
 export default Avatar;
