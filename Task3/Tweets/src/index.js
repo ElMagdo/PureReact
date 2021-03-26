@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 import Avatar from './avatar';
 import 'font-awesome/css/font-awesome.min.css';
+import Message from './messsage';
 
 function Tweets({tweets}) {
     return <div className="tweets">
@@ -29,7 +30,7 @@ var testTweets = [
 {
     id: 0,
     message: "Something about cats.",
-    gravatar: "pinterest",
+    gravatar: "heart",
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
