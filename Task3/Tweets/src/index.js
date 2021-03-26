@@ -22,7 +22,7 @@ const Tweet = ({tweet}) => (
 <div className="tweet">
     <Avatar icon={tweet.gravatar}/>
     <div className="content">
-        <NameHandle user={tweet.author}/>
+        <NameHandle user={tweet.author}/><Time time={tweet.timestamp}/>
         <Message text={tweet.message}/>
     </div>
 </div>
@@ -44,7 +44,7 @@ var testTweets = [
     buttons: {
         likes: 2,
         retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
+        timestamp: "2019-07-30 21:24:37"
     }
 },
 {
