@@ -13,3 +13,10 @@
     margin: 0 auto;
     color: aqua;
 }
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #fff;
+}
