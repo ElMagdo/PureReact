@@ -14,7 +14,11 @@ Tweets.propTypes = {
     tweets: PropTypes.array
 }
 
-const Tweet = ({tweet}) => <div className="tweet">Just tweeted</div>;
+const Tweet = ({tweet}) => (
+<div className="tweet">
+    <Avatar icon={tweet.gravatar}/>
+</div>
+);
 
 Tweet.propTypes = {
     tweet: PropTypes.object.isRequired
