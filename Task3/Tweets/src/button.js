@@ -15,8 +15,11 @@ Buttons.propTypes = {
 
 const ReplyButton = () => <i className="fa fa-reply reply-button"/>;
 
-const RetweetButton = () => (
-<i className="fa fa-retweet retweet-button"/>
+const RetweetButton = ({count}) => (
+    <span className="rtwt-btn">
+        <i className="fa fa-retweet"/>
+        {count > 0 && <span className="count">{count}</span>}
+    </span>
 );
 
 const MoreOptionsButton = () => <i className="fa fa-ellipsis-h more-options-button"/>;
