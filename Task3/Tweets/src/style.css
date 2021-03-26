@@ -12,6 +12,8 @@
     font-family: sans-serif;
     margin: 0 auto;
     color: aqua;
+    line-height: 18px;
+    padding: 10px;
 }
 
 .avatar {
