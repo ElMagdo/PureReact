@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 function Tweets({tweets}) {
-    return <div className="tweets">Tweeter Loading... </div>
+    return <div className="tweets">
+        {tweets.map(tweet => <Tweet key={tweet.id} tweet={tweet}/>)}
+    </div>
 }
 
 Tweets.propTypes = {
