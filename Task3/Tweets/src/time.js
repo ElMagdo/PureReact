@@ -4,7 +4,7 @@ import moment from 'moment';
 
 const Time = ({time}) => 
 <span className="time">
-    {time}
+    {moment(time).fromNow()}
 </span>;
 
 Time.propTypes = {
