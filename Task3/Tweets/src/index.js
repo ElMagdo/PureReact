@@ -7,6 +7,10 @@ function Tweets({tweets}) {
     return <div className="tweets">Tweeter Loading... </div>
 }
 
+Tweets.propTypes = {
+    tweets: PropTypes.array
+}
+
 var testTweets = [
 {
     id: 0,
