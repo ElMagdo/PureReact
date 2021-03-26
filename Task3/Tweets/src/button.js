@@ -5,7 +5,7 @@ const Buttons = ({buttons}) => (
 <div className="buttons">
     <ReplyButton/>
     <RetweetButton count={buttons.retweets}/>
-    <LikeButton/>
+    <LikeButton count={buttons.likes}/>
     <MoreOptionsButton/>
 </div>
 );
@@ -23,8 +23,11 @@ const RetweetButton = ({count}) => (
     </span>
 );
 
-const LikeButton = () => (
+const LikeButton = ({ count }) => (
+<span className="like-btn">
     <i className="fa fa-heart"/>
+    {count > 0 && <span className="like-count">{count}</span>}
+</span>
 );
 
 const MoreOptionsButton = () => <i className="fa fa-ellipsis-h more-options-button"/>;
