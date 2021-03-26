@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 import Avatar from './avatar';
 import 'font-awesome/css/font-awesome.min.css';
-import Message from './messsage';
+import Message from './message';
 
 function Tweets({tweets}) {
     return <div className="tweets">
@@ -19,6 +19,9 @@ Tweets.propTypes = {
 const Tweet = ({tweet}) => (
 <div className="tweet">
     <Avatar icon={tweet.gravatar}/>
+    <div className="content">
+        <Message text={tweet.message}/>
+    </div>
 </div>
 );
 
