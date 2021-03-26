@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Avatar = () => (
+const Avatar = (icon) => (
     <div className="avatar">
-        <i className="fa fa-home"/>
+        <i className={`fa fa-${icon}`}/>
     </div>
 );
 
