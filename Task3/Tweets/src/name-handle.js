@@ -1,6 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const NameHandle = () => <span className="name-handle">Cat Man</span>;
+const NameHandle = ({user}) => (
+<span className="name-handle">
+    <span className="name">{user.name}</span>
+    <span className="handle">{user.handle}</span>
+</span>
+);
 
 export default NameHandle;
