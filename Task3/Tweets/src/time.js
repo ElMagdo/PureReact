@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Time() {
-    return <span className="time">Your watch's time  -`V`-</span>;
-}
+const Time = ({time}) => 
+<span className="time">
+    {time}
+</span>;
 
 export default Time;
