@@ -9,6 +9,7 @@ function Tweets({tweets}) {
 
 var testTweets = [
 {
+    id: 0,
     message: "Something about cats.",
     gravatar: "xyz",
     author: {
@@ -22,6 +23,7 @@ var testTweets = [
     }
 },
 {
+    id: 1,
     message: "Something about cats.",
     gravatar: "xyz",
     author: {
@@ -35,6 +37,7 @@ var testTweets = [
     }
 },
 {
+    id: 2,
     message: "Something about cats.",
     gravatar: "xyz",
     author: {
@@ -48,6 +51,7 @@ var testTweets = [
     }
 },
 {
+    id: 3,
     message: "Something about cats.",
     gravatar: "xyz",
     author: {
@@ -61,6 +65,7 @@ var testTweets = [
     }
 },
 {
+    id: 4,
     message: "Something about cats.",
     gravatar: "xyz",
     author: {
