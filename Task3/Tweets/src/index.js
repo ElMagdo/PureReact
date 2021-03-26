@@ -11,6 +11,8 @@ Tweets.propTypes = {
     tweets: PropTypes.array
 }
 
+const Tweet = () => <div className="tweet">Just tweeted</div>;
+
 var testTweets = [
 {
     id: 0,
