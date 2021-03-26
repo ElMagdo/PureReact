@@ -7,6 +7,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import Message from './message';
 import NameHandle from './name-handle';
 import Time from './time';
+import Buttons from './button';
 
 function Tweets({tweets}) {
     return <div className="tweets">
