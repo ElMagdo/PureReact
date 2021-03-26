@@ -6,4 +6,8 @@ const Time = ({time}) =>
     {time}
 </span>;
 
+Time.propTypes = {
+    time: PropTypes.string.isRequired
+}
+
 export default Time;
