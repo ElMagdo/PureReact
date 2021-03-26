@@ -1,5 +1,5 @@
 .tweets {
-    width: 570px;
+    max-width: 600px;
     margin: 0 auto;
     background-color: #000;
 }
