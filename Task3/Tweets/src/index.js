@@ -25,6 +25,7 @@ const Tweet = ({tweet}) => (
     <div className="content">
         <NameHandle user={tweet.author}/><Time time={tweet.timestamp}/>
         <Message text={tweet.message}/>
+        <Buttons buttons={tweet.buttons}/>
     </div>
 </div>
 );
