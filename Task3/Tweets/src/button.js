@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Buttons = ({buttons}) => (
 <div className="buttons">
     <ReplyButton/>
-    <RetweetButton/>
+    <RetweetButton count={buttons.retweets}/>
     <MoreOptionsButton/>
 </div>
 );
