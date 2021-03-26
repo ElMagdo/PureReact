@@ -9,4 +9,7 @@
     min-height: 68px;
     display: flex;
     border-top: 1px solid #ccc;
+    font-family: sans-serif;
+    margin: 0 auto;
+    color: aqua;
 }
