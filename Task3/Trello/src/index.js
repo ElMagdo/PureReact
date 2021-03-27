@@ -28,6 +28,8 @@ var testCards = [
 ];
 
 ReactDOM.render(
-    <Board/>,
+    <Board>
+        <Card/>
+    </Board>,
     document.querySelector("#root")
 );
