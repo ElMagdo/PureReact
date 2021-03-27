@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import Title from './title';
 
 function Board({children}) {
     return <div className="board">{children}</div>;
