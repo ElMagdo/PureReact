@@ -11,7 +11,13 @@ Board.propTypes = {
     children: PropTypes.node
 }
 
-const Card = ({card}) => <div className="card">A set of tasks</div>;
+const Card = ({card}) => (
+    <div className="card">
+        <div className="inner">
+            <Title title={card.head}/>
+        </div>
+    </div>
+);
 
 Card.propTypes = {
     card: PropTypes.shape({
