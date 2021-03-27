@@ -28,6 +28,16 @@
     align-items: center;
 }
 
+.fa-css3, .fa-facebook, .fa-linkedin {
+    color: blue;
+}
+
+.fa-github {color: #000;}
+
+.fa-pinterest {color: red;}
+
+.fa-html5 {color: rgb(236, 36, 14);}
+
 .msg {
     color: #fff;
 }
