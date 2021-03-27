@@ -38,7 +38,7 @@ var testTweets = [
 {
     id: 0,
     message: "Something about cats.",
-    gravatar: "heart",
+    gravatar: "fa-pinterest",
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -52,7 +52,7 @@ var testTweets = [
 {
     id: 1,
     message: "Something about cats.",
-    gravatar: "twitter",
+    gravatar: "fa-twitter",
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -66,7 +66,7 @@ var testTweets = [
 {
     id: 2,
     message: "Something about cats.",
-    gravatar: "facebook",
+    gravatar: "fa-facebook",
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -80,7 +80,7 @@ var testTweets = [
 {
     id: 3,
     message: "Something about cats.",
-    gravatar: "github",
+    gravatar: "fa-github",
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -94,7 +94,7 @@ var testTweets = [
 {
     id: 4,
     message: "Something about cats.",
-    gravatar: "linkedin",
+    gravatar: "fa-linkedin",
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -108,7 +108,7 @@ var testTweets = [
 {
     id: 5,
     message: "Something about cats.",
-    gravatar: 'html5',
+    gravatar: 'fa-html5',
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -122,7 +122,7 @@ var testTweets = [
 {
     id: 6,
     message: "Something about cats.",
-    gravatar: 'css3',
+    gravatar: 'fa-css3',
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
