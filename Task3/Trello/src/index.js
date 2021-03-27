@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
-function Board() {
-    return <div className="board">Trello coming soon</div>;
+function Board({children}) {
+    return <div className="board">{children}</div>;
 }
 
 const Card = () => <div className="card">A set of tasks</div>;
