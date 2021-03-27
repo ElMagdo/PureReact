@@ -10,7 +10,7 @@ Board.propTypes = {
     children: PropTypes.node
 }
 
-const Card = () => <div className="card">A set of tasks</div>;
+const Card = ({card}) => <div className="card">A set of tasks</div>;
 
 var testCards = [
 {
@@ -33,7 +33,7 @@ var testCards = [
 
 ReactDOM.render(
     <Board>
-        <Card/>
+        <Card card={testCards[0]}/>
     </Board>,
     document.querySelector("#root")
 );
