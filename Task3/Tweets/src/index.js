@@ -104,6 +104,34 @@ var testTweets = [
         retweets: 0,
         timestamp: "2016-07-30 21:24:37"
     }
+},
+{
+    id: 4,
+    message: "Something about cats.",
+    gravatar: "linkedin",
+    author: {
+        handle: "catperson",
+        name: "IAMA Cat Person"
+    },
+    buttons: {
+        likes: 2,
+        retweets: 0,
+        timestamp: "2016-07-30 21:24:37"
+    }
+},
+{
+    id: 4,
+    message: "Something about cats.",
+    gravatar: "linkedin",
+    author: {
+        handle: "catperson",
+        name: "IAMA Cat Person"
+    },
+    buttons: {
+        likes: 2,
+        retweets: 0,
+        timestamp: "2016-07-30 21:24:37"
+    }
 }
 ];
 
