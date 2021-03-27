@@ -24,6 +24,10 @@
     margin-right: 10px;
 }
 
+.msg {
+    color: #fff;
+}
+
 .name {
     font-weight: bold;
     margin-bottom: 0.5em;
