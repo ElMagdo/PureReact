@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 
 let Board = () => <div className="board">Trello coming soon</div>;
 
+const Card = () => <div className="card">A set of tasks</div>;
+
 var testCards = [
 {
     id: 0,
