@@ -13,6 +13,13 @@
     font-size: 25px;
 }
 
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .item {
     background-color: #fff;
     border-radius: 2px;
