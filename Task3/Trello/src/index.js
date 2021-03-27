@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 import Title from './title';
 import 'font-awesome/css/font-awesome.min.css';
+import Item from './item';
 
 function Board({children}) {
     return <div className="board">{children}</div>;
