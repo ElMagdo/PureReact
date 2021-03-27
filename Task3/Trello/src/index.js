@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
-let Board = () => <div className="board">Trello coming soon</div>;
+function Board() {
+    return <div className="board">Trello coming soon</div>;
+}
 
 const Card = () => <div className="card">A set of tasks</div>;
 
