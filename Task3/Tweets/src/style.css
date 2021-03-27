@@ -66,3 +66,11 @@ font-weight: bold;
 width: 80px;
 display: inline-block;
 }
+
+.fa-heart {
+    color: red;
+}
+
+.fa-retweet {
+    color: rgb(0, 4, 255);
+}
