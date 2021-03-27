@@ -39,3 +39,9 @@ font-size: 13px;
 padding-left: 0.3em;
 color: #03f023;
 }
+
+.time::before {
+content: "\00b7";
+color: #fff;
+padding-right: 0.3em;
+}
