@@ -40,8 +40,8 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: "fa-pinterest",
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "pinterest",
+        name: "Pinterest"
     },
     buttons: {
         likes: 2,
@@ -54,8 +54,8 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: "fa-twitter",
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "twitter",
+        name: "Twitter"
     },
     buttons: {
         likes: 2,
@@ -68,8 +68,8 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: "fa-facebook",
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "facebook",
+        name: "Facebook"
     },
     buttons: {
         likes: 2,
@@ -82,8 +82,8 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: "fa-github",
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "github",
+        name: "Github"
     },
     buttons: {
         likes: 2,
@@ -96,8 +96,8 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: "fa-linkedin",
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "linkedin",
+        name: "LinkedIn"
     },
     buttons: {
         likes: 2,
@@ -110,13 +110,13 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: 'fa-html5',
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "html5",
+        name: "Html5"
     },
     buttons: {
         likes: 2,
         retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
+        timestamp: "2020-07-30 21:24:37"
     }
 },
 {
@@ -124,8 +124,8 @@ var testTweets = [
     message: "Something about cats.",
     gravatar: 'fa-css3',
     author: {
-        handle: "catperson",
-        name: "IAMA Cat Person"
+        handle: "css",
+        name: "Css"
     },
     buttons: {
         likes: 2,
