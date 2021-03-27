@@ -10,4 +10,8 @@ const Title = ({title}) => (
     </div>
 );
 
+Title.propTypes = {
+    title: PropTypes.string
+}
+
 export default Title;
