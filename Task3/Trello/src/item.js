@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Item = () => <div className="item">Am on the list</div>;
+const Item = ({item}) => <div className="item">{item}</div>;
 
 export default Item;
