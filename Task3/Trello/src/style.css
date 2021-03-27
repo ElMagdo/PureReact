@@ -8,6 +8,7 @@
 .inner {
     background-color: #ccc;
     border-radius: 2px;
+    padding: 15px;
 }
 
 .item {
