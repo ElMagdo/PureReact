@@ -60,3 +60,9 @@ font-size: 13px;
 margin-left: 6px;
 font-weight: bold;
 }
+
+.reply-btn, .rtwt-btn,
+.like-btn, .more-opt-btn {
+width: 80px;
+display: inline-block;
+}
