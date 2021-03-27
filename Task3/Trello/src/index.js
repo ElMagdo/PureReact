@@ -17,6 +17,7 @@ const Card = ({card}) => (
     <div className="card">
         <div className="inner">
             <Title title={card.head}/>
+            <div className="foot">Add a card...</div>
         </div>
     </div>
 );
