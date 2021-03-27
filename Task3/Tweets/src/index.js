@@ -44,8 +44,8 @@ var testTweets = [
         name: "Pinterest"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 100,
+        retweets: 33
     },
     timestamp: "2019-07-30 21:24:37"
 },
@@ -58,8 +58,8 @@ var testTweets = [
         name: "Twitter"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 990,
+        retweets: 220
     },
     timestamp: "2020-07-30 21:24:37"
 },
@@ -72,8 +72,8 @@ var testTweets = [
         name: "Facebook"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 500,
+        retweets: 120
     },
     timestamp: "2019-07-30 21:24:37"
 },
@@ -86,8 +86,8 @@ var testTweets = [
         name: "Github"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 995,
+        retweets: 500
     },
     timestamp: "2019-07-30 21:24:37"
 },
@@ -100,8 +100,8 @@ var testTweets = [
         name: "LinkedIn"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 476,
+        retweets: 95
     },
     timestamp: "2019-07-30 21:24:37"
 },
@@ -114,8 +114,8 @@ var testTweets = [
         name: "Html5"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 1000,
+        retweets: 755
     },
     timestamp: "2019-07-30 21:24:37"
 },
@@ -128,8 +128,8 @@ var testTweets = [
         name: "Css"
     },
     buttons: {
-        likes: 2,
-        retweets: 0
+        likes: 2000,
+        retweets: 900
     },
     timestamp: "2019-07-30 21:24:37"
 }
