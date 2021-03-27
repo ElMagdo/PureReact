@@ -106,9 +106,9 @@ var testTweets = [
     }
 },
 {
-    id: 4,
+    id: 5,
     message: "Something about cats.",
-    gravatar: "linkedin",
+    gravatar: 'html5',
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
@@ -120,9 +120,9 @@ var testTweets = [
     }
 },
 {
-    id: 4,
+    id: 6,
     message: "Something about cats.",
-    gravatar: "linkedin",
+    gravatar: 'css3',
     author: {
         handle: "catperson",
         name: "IAMA Cat Person"
