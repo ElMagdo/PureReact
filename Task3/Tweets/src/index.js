@@ -37,7 +37,7 @@ Tweet.propTypes = {
 var testTweets = [
 {
     id: 0,
-    message: "Something about cats.",
+    message: "Everybody has an interest in something.",
     gravatar: "fa-pinterest",
     author: {
         handle: "pinterest",
@@ -51,7 +51,7 @@ var testTweets = [
 },
 {
     id: 1,
-    message: "Something about cats.",
+    message: "Don't woory about the noise, it's just a tweet.",
     gravatar: "fa-twitter",
     author: {
         handle: "twitter",
@@ -65,7 +65,7 @@ var testTweets = [
 },
 {
     id: 2,
-    message: "Something about cats.",
+    message: "Nobody is REACTing to your success.",
     gravatar: "fa-facebook",
     author: {
         handle: "facebook",
@@ -79,7 +79,7 @@ var testTweets = [
 },
 {
     id: 3,
-    message: "Something about cats.",
+    message: "I'll issue you a Repo after you commit.",
     gravatar: "fa-github",
     author: {
         handle: "github",
@@ -93,7 +93,7 @@ var testTweets = [
 },
 {
     id: 4,
-    message: "Something about cats.",
+    message: "Come make your links, not the Web ones though.",
     gravatar: "fa-linkedin",
     author: {
         handle: "linkedin",
@@ -107,7 +107,7 @@ var testTweets = [
 },
 {
     id: 5,
-    message: "Something about cats.",
+    message: "I am the beginning of the Web.",
     gravatar: 'fa-html5',
     author: {
         handle: "html5",
@@ -121,7 +121,7 @@ var testTweets = [
 },
 {
     id: 6,
-    message: "Something about cats.",
+    message: "If beauty was language... that will be definitely me!",
     gravatar: 'fa-css3',
     author: {
         handle: "css",
