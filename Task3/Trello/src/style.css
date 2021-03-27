@@ -9,3 +9,9 @@
     background-color: #ccc;
     border-radius: 2px;
 }
+
+.item {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
