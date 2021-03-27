@@ -12,6 +12,14 @@ Board.propTypes = {
 
 const Card = ({card}) => <div className="card">A set of tasks</div>;
 
+Card.propTypes = {
+    card: PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        head: PropTypes.string.isRequired,
+        list: PropTypes.array.isRequired
+    }).isRequired
+}
+
 var testCards = [
 {
     id: 0,
