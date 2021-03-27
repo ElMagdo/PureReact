@@ -45,9 +45,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2019-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2019-07-30 21:24:37"
 },
 {
     id: 1,
@@ -59,9 +59,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2020-07-30 21:24:37"
 },
 {
     id: 2,
@@ -73,9 +73,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2019-07-30 21:24:37"
 },
 {
     id: 3,
@@ -87,9 +87,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2019-07-30 21:24:37"
 },
 {
     id: 4,
@@ -101,9 +101,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2019-07-30 21:24:37"
 },
 {
     id: 5,
@@ -115,9 +115,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2020-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2019-07-30 21:24:37"
 },
 {
     id: 6,
@@ -129,9 +129,9 @@ var testTweets = [
     },
     buttons: {
         likes: 2,
-        retweets: 0,
-        timestamp: "2016-07-30 21:24:37"
-    }
+        retweets: 0
+    },
+    timestamp: "2019-07-30 21:24:37"
 }
 ];
 
