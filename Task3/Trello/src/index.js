@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import './style.css';
 import Title from './title';
 import 'font-awesome/css/font-awesome.min.css';
 
