@@ -30,7 +30,7 @@ RetweetButton.propTypes = {
 const LikeButton = ({ count }) => (
 <span className="like-btn">
     <i className="fa fa-heart"/>
-    {count > 0 && <span className="like-count">{count}</span>}
+    {count > 0 && <span className="count">{count}</span>}
 </span>
 );
 
