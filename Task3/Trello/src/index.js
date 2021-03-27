@@ -6,6 +6,10 @@ function Board({children}) {
     return <div className="board">{children}</div>;
 }
 
+Board.propTypes = {
+    children: PropTypes.node
+}
+
 const Card = () => <div className="card">A set of tasks</div>;
 
 var testCards = [
