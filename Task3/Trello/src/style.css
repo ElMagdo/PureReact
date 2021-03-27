@@ -6,8 +6,8 @@
 }
 
 .inner {
-    background-color: #ccc;
-    border-radius: 2px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
     padding: 15px;
     font-family: sans-serif;
     font-size: 25px;
