@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Title from './title';
+import 'font-awesome/css/font-awesome.min.css';
 
 function Board({children}) {
     return <div className="board">{children}</div>;
