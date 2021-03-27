@@ -18,6 +18,7 @@ const Card = ({card}) => (
     <div className="card">
         <div className="inner">
             <Title title={card.head}/>
+            {card.list.map(i => <Item key={i.id} item={i.item}/>)}
             <div className="foot">Add a card...</div>
         </div>
     </div>
