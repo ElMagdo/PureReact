@@ -14,7 +14,7 @@ Buttons.propTypes = {
     buttons: PropTypes.object.isRequired
 }
 
-const ReplyButton = () => <i className="fa fa-reply reply-button"/>;
+const ReplyButton = () => <i className="fa fa-reply reply-btn"/>;
 
 const RetweetButton = ({count}) => (
     <span className="rtwt-btn">
@@ -38,6 +38,6 @@ LikeButton.propTypes = {
     count: PropTypes.number.isRequired
 }
 
-const MoreOptionsButton = () => <i className="fa fa-ellipsis-h more-options-button"/>;
+const MoreOptionsButton = () => <i className="fa fa-ellipsis-h more-opt-btn"/>;
 
 export default Buttons;
