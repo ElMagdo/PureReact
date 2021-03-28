@@ -16,6 +16,7 @@ const View = ({news}) => (
             <span className="nav-item">jobs</span>|
             <span className="nav-item">submit</span>
         </Navbar>
+        <Post/>
     </div>
 );
 
