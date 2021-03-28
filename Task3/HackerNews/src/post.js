@@ -1,7 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-const Post = () => (
+const Post = ({feed}) => (
     <div className="post">Just posted</div>
 );
 
