@@ -6,7 +6,15 @@ import Navbar from './navbar';
 
 const View = ({news}) => (
     <div className="view">
-        <Navbar/>
+        <Navbar>
+            <span className="nav-item">new</span>|
+            <span className="nav-item">threads</span>|
+            <span className="nav-item">comments</span>|
+            <span className="nav-item">show</span>|
+            <span className="nav-item">ask</span>|
+            <span className="nav-item">jobs</span>|
+            <span className="nav-item">submit</span>
+        </Navbar>
     </div>
 );
 
