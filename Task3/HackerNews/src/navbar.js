@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const Navbar = ({children}) => (
     <div className="navbar">
-        Am at the TOP
+        <span className="logo">Y</span>
+        <span className="logo-name">Hacker News</span>
         <span className="ryt">{children}</span>
     </div>
 );
