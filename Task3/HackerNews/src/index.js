@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 import Navbar from './navbar';
+import Post from './post';
 
 const View = ({news}) => (
     <div className="view">
