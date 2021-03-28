@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 
-const View = () => (
+const View = ({news}) => (
     <div className="view">The latest coming up...</div>
 );
 
@@ -101,6 +101,6 @@ var testNews = [
 ];
 
 ReactDOM.render(
-    <View/>,
+    <View news={testNews}/>,
     document.querySelector("#root")
 );
