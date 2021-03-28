@@ -7,6 +7,10 @@ const View = ({news}) => (
     <div className="view">The latest coming up...</div>
 );
 
+View.propTypes = {
+    news: PropTypes.array.isRequired
+}
+
 var testNews = [
     {
         id: 0,
