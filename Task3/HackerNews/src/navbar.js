@@ -8,4 +8,8 @@ const Navbar = ({children}) => (
     </div>
 );
 
+Navbar.propTypes = {
+    children: PropTypes.node.isRequired
+}
+
 export default Navbar;
