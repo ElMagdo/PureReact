@@ -6,4 +6,6 @@ of cards side-by-side.
 
 ![Sample Trello list of cards](trello.png)
 
+After trying the multiple list  
+
 ![Multiple list of cards](trello-new.png)
