@@ -16,7 +16,9 @@ const View = ({news}) => (
             <span className="nav-item">jobs</span>|
             <span className="nav-item">submit</span>
         </Navbar>
-        <Post/>
+        <div className="feed">
+            {news.map(i => <Post key={i.id} feed={i}/>)}
+        </div>
     </div>
 );
 
