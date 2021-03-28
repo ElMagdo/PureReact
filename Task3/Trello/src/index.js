@@ -7,6 +7,12 @@ import 'font-awesome/css/font-awesome.min.css';
 import Item from './item';
 
 function Board({children}) {
+    React.Children.forEach(children, 
+        child => {
+        if (child.type !== Card) {
+            console.error("Strange child in the House.");
+        }
+    })
     return <div className="board">{children}</div>;
 }
 
