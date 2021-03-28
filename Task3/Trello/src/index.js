@@ -62,6 +62,7 @@ ReactDOM.render(
     <Board>
         <Card card={testCards[0]}/>
         <Card card={testCards[1]}/>
+        <Card card={testCards[2]}/>
     </Board>,
     document.querySelector("#root")
 );
