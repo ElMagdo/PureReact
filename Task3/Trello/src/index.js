@@ -41,19 +41,19 @@ var testCards = [
     ]
 },
 {
-    head: "Phone Features",
+    head: "App Features",
     list: [
-        {id: 0, item: "Subwoofer"}, {id: 1, item: "Non-porous, washable"},
-        {id: 2, item: "Wings"}, {id: 3, item: "Beveled Bezel"},
-        {id: 4, item: "Bezeled Bevel"}, {id: 5, item: "Seedless"}
+        {id: 0, item: "Login"}, {id: 1, item: "User Interface"},
+        {id: 2, item: "Settings"}, {id: 3, item: "Profile"},
+        {id: 4, item: "Response"}, {id: 5, item: "Navigation"}
     ]
 },
 {
-    head: "Phone Features",
+    head: "React Features",
     list: [
-        {id: 0, item: "Subwoofer"}, {id: 1, item: "Non-porous, washable"},
-        {id: 2, item: "Wings"}, {id: 3, item: "Beveled Bezel"},
-        {id: 4, item: "Bezeled Bevel"}, {id: 5, item: "Seedless"}
+        {id: 0, item: "Components"}, {id: 1, item: "Interactions"},
+        {id: 2, item: "Props"}, {id: 3, item: "States"},
+        {id: 4, item: "Children"}, {id: 5, item: "Packages"}
     ]
 }
 ];
