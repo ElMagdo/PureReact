@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
+import Navbar from './navbar';
 
 const View = ({news}) => (
     <div className="view">The latest coming up...</div>
