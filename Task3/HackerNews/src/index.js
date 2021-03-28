@@ -5,7 +5,9 @@ import './style.css';
 import Navbar from './navbar';
 
 const View = ({news}) => (
-    <div className="view">The latest coming up...</div>
+    <div className="view">
+        <Navbar/>
+    </div>
 );
 
 View.propTypes = {
