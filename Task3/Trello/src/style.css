@@ -1,3 +1,7 @@
+.board {
+    display: flex;
+}
+
 .card {
     min-height: 60px;
     width: 400px;
