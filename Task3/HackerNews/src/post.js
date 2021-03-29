@@ -13,7 +13,8 @@ const Post = ({feed}) => (
                 <span className="src"> ({feed.site})</span>
             </div>
             <div className="btm">
-                <span className="pts">{feed.points} points</span>
+                <span className="pts">{feed.points} points </span>
+                <span className="writer">by {feed.writer}</span>
             </div>
         </div>
     </div>
