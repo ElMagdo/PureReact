@@ -39,7 +39,7 @@ var testNews = [
     },
     {
         id: 1,
-        title: "Why I'm Suing the US Government",
+        title: "Zenzizenzizenzic",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -48,7 +48,7 @@ var testNews = [
     },
     {
         id: 2,
-        title: "Why I'm Suing the US Government",
+        title: "A practical security guide for web developers",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -57,7 +57,7 @@ var testNews = [
     },
     {
         id: 3,
-        title: "Why I'm Suing the US Government",
+        title: "I got arrested in Kazhakstan and represented myself in court",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -66,7 +66,7 @@ var testNews = [
     },
     {
         id: 4,
-        title: "Why I'm Suing the US Government",
+        title: "Sculpture of Housing Prices Ripping San Francisco Apart",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -75,7 +75,7 @@ var testNews = [
     },
     {
         id: 5,
-        title: "Why I'm Suing the US Government",
+        title: "Practical Giude to Bare Metal C++",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -84,7 +84,7 @@ var testNews = [
     },
     {
         id: 6,
-        title: "Why I'm Suing the US Government",
+        title: "Superformula",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -93,7 +93,7 @@ var testNews = [
     },
     {
         id: 7,
-        title: "Why I'm Suing the US Government",
+        title: "Police asked 3D printing lab to recreate a dead man's fingers to unlock phone",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -102,7 +102,7 @@ var testNews = [
     },
     {
         id: 8,
-        title: "Why I'm Suing the US Government",
+        title: "Edward Snowden's New Research Aims to Keep Smartphones from Betraying Owners",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
@@ -111,7 +111,7 @@ var testNews = [
     },
     {
         id: 9,
-        title: "Why I'm Suing the US Government",
+        title: "Assesing IBM's POWER8, Part 1: A Low Level Look at Little Endian",
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
