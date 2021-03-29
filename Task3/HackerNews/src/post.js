@@ -12,6 +12,9 @@ const Post = ({feed}) => (
                 <span className="caption">{feed.title}</span>
                 <span className="src"> ({feed.site})</span>
             </div>
+            <div className="btm">
+                <span className="pts">{feed.points} points</span>
+            </div>
         </div>
     </div>
 );
