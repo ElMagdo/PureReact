@@ -14,7 +14,8 @@ const Post = ({feed}) => (
             </div>
             <div className="btm">
                 <span className="pts">{feed.points} points </span>
-                <span className="writer">by {feed.writer}</span>
+                <span className="writer">by {feed.writer} </span>
+                <span className="time">{moment(feed.posted_at).fromNow()} </span>
             </div>
         </div>
     </div>
