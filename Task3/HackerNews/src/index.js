@@ -40,7 +40,7 @@ var testNews = [
     {
         id: 1,
         title: "Zenzizenzizenzic",
-        site: "bunniestudios.com",
+        site: "wikipedia.org",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -49,7 +49,7 @@ var testNews = [
     {
         id: 2,
         title: "A practical security guide for web developers",
-        site: "bunniestudios.com",
+        site: "github.com",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -58,7 +58,7 @@ var testNews = [
     {
         id: 3,
         title: "I got arrested in Kazhakstan and represented myself in court",
-        site: "bunniestudios.com",
+        site: "medium.com",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -67,7 +67,7 @@ var testNews = [
     {
         id: 4,
         title: "Sculpture of Housing Prices Ripping San Francisco Apart",
-        site: "bunniestudios.com",
+        site: "dougmccune.com",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -76,7 +76,7 @@ var testNews = [
     {
         id: 5,
         title: "Practical Giude to Bare Metal C++",
-        site: "bunniestudios.com",
+        site: "gitbooks.io",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -85,7 +85,7 @@ var testNews = [
     {
         id: 6,
         title: "Superformula",
-        site: "bunniestudios.com",
+        site: "wikipedia.org",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -94,7 +94,7 @@ var testNews = [
     {
         id: 7,
         title: "Police asked 3D printing lab to recreate a dead man's fingers to unlock phone",
-        site: "bunniestudios.com",
+        site: "fusion.net",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -103,7 +103,7 @@ var testNews = [
     {
         id: 8,
         title: "Edward Snowden's New Research Aims to Keep Smartphones from Betraying Owners",
-        site: "bunniestudios.com",
+        site: "theintercept.com",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
@@ -112,7 +112,7 @@ var testNews = [
     {
         id: 9,
         title: "Assesing IBM's POWER8, Part 1: A Low Level Look at Little Endian",
-        site: "bunniestudios.com",
+        site: "anandtech.com",
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
