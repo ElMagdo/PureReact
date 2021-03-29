@@ -18,7 +18,7 @@ const Post = ({feed}) => (
                 <span className="writer">by {feed.writer} </span>
                 <span className="time">{moment(feed.posted_at).fromNow()} </span>
                 <span className="links-1">| flag | hide | </span>
-                <span className="cmt">{feed.comments} comments </span>
+                <span className="cmt">{feed.comments} {feed.comments>1 ? "comments" : "comment"} </span>
                 <span className="links-2">| instapaper | save to pocket</span>
             </div>
         </div>

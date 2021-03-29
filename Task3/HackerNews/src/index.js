@@ -52,7 +52,7 @@ var testNews = [
         points: 1346,
         writer: "Ivank",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 0
     },
     {
         id: 0,
