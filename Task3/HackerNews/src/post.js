@@ -10,6 +10,7 @@ const Post = ({feed}) => (
         <div className="post-ryt">
             <div className="top">
                 <span className="caption">{feed.title}</span>
+                <span className="src"> ({feed.site})</span>
             </div>
         </div>
     </div>
