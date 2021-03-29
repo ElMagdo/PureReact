@@ -115,7 +115,7 @@ var testNews = [
         site: "anandtech.com",
         points: 24,
         writer: "tambourine_man",
-        posted_at: "2021-03-29 19:29",
+        posted_at: "2021-03-29 16:46",
         comments: 1
     }
 ];
