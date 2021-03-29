@@ -6,7 +6,7 @@ const Post = ({feed}) => (
     <div className="post">
         <div className="left">
             <span className="num">{feed.id}</span>
-            <span className="up"><i className="fa fa-triangle"/></span>
+            <span className="up"><i className="fa fa-level-up"/></span>
         </div>
         <div className="post-ryt">
             <div className="top">
