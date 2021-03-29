@@ -7,6 +7,11 @@ const Post = ({feed}) => (
             <span className="num">{feed.id}</span>
             <span className="up"><i className="fa fa-triangle"/></span>
         </div>
+        <div className="post-ryt">
+            <div className="top">
+                <span className="caption">{feed.title}</span>
+            </div>
+        </div>
     </div>
 );
 
