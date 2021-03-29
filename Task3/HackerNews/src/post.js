@@ -5,6 +5,7 @@ const Post = ({feed}) => (
     <div className="post">
         <div className="left">
             <span className="num">{feed.id}</span>
+            <span className="up"><i className="fa fa-triangle"/></span>
         </div>
     </div>
 );
