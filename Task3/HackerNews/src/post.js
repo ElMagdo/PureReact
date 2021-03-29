@@ -2,7 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Post = ({feed}) => (
-    <div className="post">Just posted</div>
+    <div className="post">
+        <div className="left">
+            <span className="num">{feed.id}</span>
+        </div>
+    </div>
 );
 
 Post.propTypes = {
