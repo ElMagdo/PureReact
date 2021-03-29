@@ -43,6 +43,10 @@
     font-size: 12px;
 }
 
-.src {
-    font-size: 13px;
+.left {
+    text-align: left;
+}
+
+.up {
+    margin: 0 3px;
 }
