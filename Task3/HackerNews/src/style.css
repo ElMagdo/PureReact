@@ -1,5 +1,7 @@
 .navbar {
-    background-color: orange;
+    background-color: rgb(255, 123, 0);
+    height: 23px;
+    padding: 5px 2px 0 2px;
 }
 
 .logo {
