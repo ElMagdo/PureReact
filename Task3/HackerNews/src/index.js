@@ -42,7 +42,7 @@ var testNews = [
         title: "Zenzizenzizenzic",
         site: "wikipedia.org",
         points: 140,
-        writer: "Ivank",
+        writer: "vinchuco",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -51,7 +51,7 @@ var testNews = [
         title: "A practical security guide for web developers",
         site: "github.com",
         points: 72,
-        writer: "Ivank",
+        writer: "zianwar",
         posted_at: "2021-03-28 19:29",
         comments: 0
     },
@@ -60,7 +60,7 @@ var testNews = [
         title: "I got arrested in Kazhakstan and represented myself in court",
         site: "medium.com",
         points: 370,
-        writer: "Ivank",
+        writer: "drpp",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -69,7 +69,7 @@ var testNews = [
         title: "Sculpture of Housing Prices Ripping San Francisco Apart",
         site: "dougmccune.com",
         points: 254,
-        writer: "Ivank",
+        writer: "dougmccune",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -78,7 +78,7 @@ var testNews = [
         title: "Practical Giude to Bare Metal C++",
         site: "gitbooks.io",
         points: 175,
-        writer: "Ivank",
+        writer: "adamnemecek",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -87,7 +87,7 @@ var testNews = [
         title: "Superformula",
         site: "wikipedia.org",
         points: 77,
-        writer: "Ivank",
+        writer: "GuiA",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -96,7 +96,7 @@ var testNews = [
         title: "Police asked 3D printing lab to recreate a dead man's fingers to unlock phone",
         site: "fusion.net",
         points: 109,
-        writer: "Ivank",
+        writer: "theandrewbailey",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -105,7 +105,7 @@ var testNews = [
         title: "Edward Snowden's New Research Aims to Keep Smartphones from Betraying Owners",
         site: "theintercept.com",
         points: 190,
-        writer: "Ivank",
+        writer: "secfirstmd",
         posted_at: "2021-03-28 19:29",
         comments: 257
     },
@@ -114,7 +114,7 @@ var testNews = [
         title: "Assesing IBM's POWER8, Part 1: A Low Level Look at Little Endian",
         site: "anandtech.com",
         points: 24,
-        writer: "Ivank",
+        writer: "tambourine",
         posted_at: "2021-03-28 19:29",
         comments: 257
     }
