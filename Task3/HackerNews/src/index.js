@@ -38,7 +38,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 1,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -47,7 +47,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 2,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -56,7 +56,7 @@ var testNews = [
         comments: 0
     },
     {
-        id: 0,
+        id: 3,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -65,7 +65,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 4,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -74,7 +74,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 5,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -83,7 +83,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 6,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -92,7 +92,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 7,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -101,7 +101,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 8,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
@@ -110,7 +110,7 @@ var testNews = [
         comments: 257
     },
     {
-        id: 0,
+        id: 9,
         title: "Why I'm Suing the US Government",
         site: "bunniestudios.com",
         points: 1346,
