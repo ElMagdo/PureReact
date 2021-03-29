@@ -28,3 +28,8 @@
     display: flex;
     margin-top: 5px;
 }
+
+.feed {
+    background-color: #f8f7f7;
+    padding: 5px 0 3px 0;
+}
