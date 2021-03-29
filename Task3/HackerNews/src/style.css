@@ -23,3 +23,8 @@
 .nav-item {
     margin: 0 5px;
 }
+
+.post {
+    display: flex;
+    margin-top: 5px;
+}
