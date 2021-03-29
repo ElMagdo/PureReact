@@ -13,3 +13,8 @@
     color: #fff;
     padding: 2px 5px;
 }
+
+.logo-name {
+    font-weight: bolder;
+    margin: 0 4px;
+}
