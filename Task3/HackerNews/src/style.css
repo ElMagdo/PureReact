@@ -33,3 +33,16 @@
     background-color: #f8f7f7;
     padding: 5px 0 3px 0;
 }
+
+.left, .src, .btm {
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.btm {
+    font-size: 12px;
+}
+
+.src {
+    font-size: 13px;
+}
