@@ -34,7 +34,7 @@ var testNews = [
         site: "bunniestudios.com",
         points: 1346,
         writer: "Ivank",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-01-28 19:29",
         comments: 257
     },
     {
@@ -43,7 +43,7 @@ var testNews = [
         site: "wikipedia.org",
         points: 140,
         writer: "vinchuco",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-03-02 21:29",
         comments: 40
     },
     {
@@ -61,7 +61,7 @@ var testNews = [
         site: "medium.com",
         points: 370,
         writer: "drpp",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-03-29 19:42",
         comments: 79
     },
     {
@@ -70,7 +70,7 @@ var testNews = [
         site: "dougmccune.com",
         points: 254,
         writer: "dougmccune",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-03-21 00:00",
         comments: 149
     },
     {
@@ -79,7 +79,7 @@ var testNews = [
         site: "gitbooks.io",
         points: 175,
         writer: "adamnemecek",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-03-28 02:29",
         comments: 31
     },
     {
@@ -88,7 +88,7 @@ var testNews = [
         site: "wikipedia.org",
         points: 77,
         writer: "GuiA",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-03-8 19:29",
         comments: 17
     },
     {
@@ -97,7 +97,7 @@ var testNews = [
         site: "fusion.net",
         points: 109,
         writer: "theandrewbailey",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-02-28 19:29",
         comments: 57
     },
     {
@@ -106,7 +106,7 @@ var testNews = [
         site: "theintercept.com",
         points: 190,
         writer: "secfirstmd",
-        posted_at: "2021-03-28 19:29",
+        posted_at: "2021-03-20 19:29",
         comments: 69
     },
     {
@@ -114,8 +114,8 @@ var testNews = [
         title: "Assesing IBM's POWER8, Part 1: A Low Level Look at Little Endian",
         site: "anandtech.com",
         points: 24,
-        writer: "tambourine",
-        posted_at: "2021-03-28 19:29",
+        writer: "tambourine_man",
+        posted_at: "2021-03-29 19:29",
         comments: 1
     }
 ];
