@@ -44,7 +44,7 @@ var testNews = [
         points: 140,
         writer: "vinchuco",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 40
     },
     {
         id: 2,
@@ -53,7 +53,7 @@ var testNews = [
         points: 72,
         writer: "zianwar",
         posted_at: "2021-03-28 19:29",
-        comments: 0
+        comments: 6
     },
     {
         id: 3,
@@ -62,7 +62,7 @@ var testNews = [
         points: 370,
         writer: "drpp",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 79
     },
     {
         id: 4,
@@ -71,7 +71,7 @@ var testNews = [
         points: 254,
         writer: "dougmccune",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 149
     },
     {
         id: 5,
@@ -80,7 +80,7 @@ var testNews = [
         points: 175,
         writer: "adamnemecek",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 31
     },
     {
         id: 6,
@@ -89,7 +89,7 @@ var testNews = [
         points: 77,
         writer: "GuiA",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 17
     },
     {
         id: 7,
@@ -98,7 +98,7 @@ var testNews = [
         points: 109,
         writer: "theandrewbailey",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 57
     },
     {
         id: 8,
@@ -107,7 +107,7 @@ var testNews = [
         points: 190,
         writer: "secfirstmd",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 69
     },
     {
         id: 9,
@@ -116,7 +116,7 @@ var testNews = [
         points: 24,
         writer: "tambourine",
         posted_at: "2021-03-28 19:29",
-        comments: 257
+        comments: 1
     }
 ];
 
