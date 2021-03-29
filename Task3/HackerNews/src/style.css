@@ -1,3 +1,7 @@
+.view {
+    font-family: sans-serif;
+}
+
 .navbar {
     background-color: rgb(255, 123, 0);
     height: 23px;
