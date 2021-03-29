@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 import Navbar from './navbar';
 import Post from './post';
+import 'font-awesome/css/font-awesome.min.css';
 
 const View = ({news}) => (
     <div className="view">
