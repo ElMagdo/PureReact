@@ -7,6 +7,13 @@ function Page({page}) {
     return <div className="avi-exp">Cool page</div>;
 }
 
+Page.propTypes = {
+    page: PropTypes.shape({
+        head: PropTypes.object.isRequired,
+        body: PropTypes.array.isRequired
+    })
+};
+
 var testPage = {
     head: {
         logo: "AE",
