@@ -17,6 +17,15 @@ var testCards = {
         followers: 8900,
         following: 1800
     },
+    body: [
+        {
+            caption: "DIY: Tips Tricks Ideas Repair",
+            name: "Aviation Explorer",
+            cap_img: "",
+            ls_img: ["", "", ""],
+            pins: 4850
+        },
+    ]
 };
 
 ReactDOM.render(
