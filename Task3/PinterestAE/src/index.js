@@ -2,9 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
+import Card from './card';
 
 function Page({page}) {
-    return <div className="avi-exp">Cool page</div>;
+    return (
+        <div className="page">
+            <div className="board">
+                <Card/>
+            </div>
+        </div>
+    );
 }
 
 Page.propTypes = {
