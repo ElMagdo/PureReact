@@ -16,7 +16,7 @@ Page.propTypes = {
 
 var testPage = {
     head: {
-        logo: "AE",
+        logo: "",
         title: "Aviation Explorer",
         boards: 37,
         pins: 8900,
