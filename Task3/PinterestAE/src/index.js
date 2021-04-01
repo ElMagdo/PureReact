@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 
-function Explorer({page}) {
+function Page({page}) {
     return <div className="avi-exp">Cool page</div>;
 }
 
-var testCards = {
+var testPage = {
     head: {
         logo: "AE",
         title: "Aviation Explorer",
@@ -29,6 +29,6 @@ var testCards = {
 };
 
 ReactDOM.render(
-    <Explorer page={testPage}/>,
+    <Page page={testPage}/>,
     document.querySelector("#root")
 );
