@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import './style.css';
 
-function Explorer() {
+function Explorer({page}) {
     return <div className="avi-exp">Cool page</div>;
 }
 
@@ -29,6 +29,6 @@ var testCards = {
 };
 
 ReactDOM.render(
-    <Explorer/>,
+    <Explorer page={testPage}/>,
     document.querySelector("#root")
 );
