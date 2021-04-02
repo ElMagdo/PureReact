@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Card = () => (
+const Card = ({body}) => (
     <div className="card">I'm one of me</div>
 );
 

@@ -8,7 +8,7 @@ function Page({page}) {
     return (
         <div className="page">
             <div className="board">
-                <Card/>
+                <Card body={page.body}/>
             </div>
         </div>
     );
