@@ -6,13 +6,13 @@ const Card = ({body}) => (
 );
 
 Card.propTypes = {
-    body: PropTypes.arrayOf(PropTypes.shape({
+    body: PropTypes.shape({
         caption: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         cap_img: PropTypes.string.isRequired,
         ls_img: PropTypes.array.isRequired,
         pins: PropTypes.number.isRequired
-    }))
+    })
 }
 
 export default Card;
