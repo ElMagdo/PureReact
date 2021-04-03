@@ -14,6 +14,7 @@ const Card = ({body}) => (
             <div className="ls">img2</div>
             <div className="ls">img3</div>
         </div>
+        <div className="flw"><button>follow</button></div>
     </div>
 );
 
