@@ -40,6 +40,46 @@ var testPage = {
             ls_img: ["", "", ""],
             pins: 4850
         },
+        {
+            id: 0,
+            caption: "DIY: Tips Tricks Ideas Repair",
+            name: "Aviation Explorer",
+            cap_img: "",
+            ls_img: ["", "", ""],
+            pins: 4850
+        },
+        {
+            id: 0,
+            caption: "DIY: Tips Tricks Ideas Repair",
+            name: "Aviation Explorer",
+            cap_img: "",
+            ls_img: ["", "", ""],
+            pins: 4850
+        },
+        {
+            id: 0,
+            caption: "DIY: Tips Tricks Ideas Repair",
+            name: "Aviation Explorer",
+            cap_img: "",
+            ls_img: ["", "", ""],
+            pins: 4850
+        },
+        {
+            id: 0,
+            caption: "DIY: Tips Tricks Ideas Repair",
+            name: "Aviation Explorer",
+            cap_img: "",
+            ls_img: ["", "", ""],
+            pins: 4850
+        },
+        {
+            id: 0,
+            caption: "DIY: Tips Tricks Ideas Repair",
+            name: "Aviation Explorer",
+            cap_img: "",
+            ls_img: ["", "", ""],
+            pins: 4850
+        }
     ]
 };
 
