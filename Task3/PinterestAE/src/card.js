@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const Card = ({body}) => (
     <div className="card">
         <div className="caption">{body.caption}</div>
+        <div className="name">{body.name}</div>
     </div>
 );
 
