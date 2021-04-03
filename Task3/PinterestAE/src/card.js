@@ -5,6 +5,10 @@ const Card = ({body}) => (
     <div className="card">
         <div className="caption">{body.caption}</div>
         <div className="name">{body.name}</div>
+        <div className="big">
+            <div className="cap_img"></div>
+            <div className="pin">{body.pins}</div>
+        </div>
     </div>
 );
 
