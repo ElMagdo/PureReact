@@ -8,7 +8,7 @@ function Page({page}) {
     return (
         <div className="page">
             <div className="board">
-                {page.body.forEach(i => <Card key={i.id} body={i}/>)}
+                {page.body.map(i => <Card key={i.id} body={i}/>)}
             </div>
         </div>
     );
