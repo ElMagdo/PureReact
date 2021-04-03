@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({body}) => (
-    <div className="card">I'm one of me</div>
+    <div className="card">
+        <div className="caption">{body.caption}</div>
+    </div>
 );
 
 Card.propTypes = {
