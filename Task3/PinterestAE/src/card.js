@@ -9,6 +9,11 @@ const Card = ({body}) => (
             <div className="cap_img"></div>
             <div className="pin">{body.pins}</div>
         </div>
+        <div className="sml">
+            <div className="ls">img1</div>
+            <div className="ls">img2</div>
+            <div className="ls">img3</div>
+        </div>
     </div>
 );
 
