@@ -33,6 +33,7 @@ var testPage = {
     },
     body: [
         {
+            id: 0,
             caption: "DIY: Tips Tricks Ideas Repair",
             name: "Aviation Explorer",
             cap_img: "",
