@@ -2,3 +2,9 @@
     display: flex;
     margin: 0 auto;
 }
+
+.card {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
