@@ -1,11 +1,12 @@
 .board {
     display: flex;
     flex-flow: row wrap;
+    width: 850px;
     margin: 0 auto;
 }
 
 .card {
-    width: 200px;
+    width: 250px;
     padding: 10px;
 }
 
