@@ -3,6 +3,7 @@
     flex-flow: row wrap;
     width: 850px;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 .card {
