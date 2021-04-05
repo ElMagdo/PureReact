@@ -14,3 +14,9 @@
 .caption {
     font-weight: bold;
 }
+
+.name {
+    font-size: 13.5px;
+    color: #928d8d;
+    font-weight: bold;
+}
