@@ -22,3 +22,8 @@
     color: #928d8d;
     font-weight: bold;
 }
+
+.cap-img {
+    height: 150px;
+    background-color: orchid;
+}
