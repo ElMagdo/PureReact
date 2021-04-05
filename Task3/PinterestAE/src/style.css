@@ -4,11 +4,13 @@
     width: 850px;
     margin: 0 auto;
     font-family: sans-serif;
+    background-color: #9b9494;
 }
 
 .card {
     width: 250px;
     padding: 10px;
+    background-color: #fff;
 }
 
 .caption {
