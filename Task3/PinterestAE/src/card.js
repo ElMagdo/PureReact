@@ -7,7 +7,7 @@ const Card = ({body}) => (
         <div className="name">{body.name}</div>
         <div className="big">
             <div className="cap-img"></div>
-            <div className="pin"><i className="fa fa-pin"/> {body.pins}</div>
+            <div className="pin"><i className="fa fa-thumb-tack"/> {body.pins}</div>
         </div>
         <div className="sml">
             <div className="ls">img1</div>
