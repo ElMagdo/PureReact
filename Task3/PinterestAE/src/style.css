@@ -29,3 +29,15 @@
     height: 150px;
     background-color: orchid;
 }
+
+.pin {
+    background-color: #928d8d;
+    color: #fff;
+    width: fit-content;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 26px;
+    left: 2px;
+}
