@@ -1,6 +1,7 @@
 .board {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     width: 850px;
     margin: 0 auto;
     font-family: sans-serif;
